@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(90, 216, 168);
+}
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(96, 228, 135), rgb(15, 58, 15));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+header > p {
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 15px;
+    font-size: 0.6em;
+
+}
+
+nav > ul a{
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav > ul a:hover{
+    background-color: green;
+
+}
+
+span {
+    color: rgb(38, 124, 38);
+    font-weight: bold;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 10px;
+    box-shadow: 5px 5px 15px green;
+
+}
+article > h1 {
+    color: rgb(47, 129, 47);
+    font-weight: bold;
+    /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+    font-family: 'idroid';
+
+}    
+article > h2 {
+    background-image: linear-gradient(to right, rgba(163, 236, 163, 0.473), white 85%);
+    color: rgb(47, 129, 47);
+    font-weight: bold;
+    /* biome-ignore lint/a11y/useGenericFontNames: <explanation> */
+    font-family: 'idroid';
+}
+
+.img-artigo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: -20px;
+}
+
+aside {
+    background-color: rgb(90, 216, 168);
+    margin: 5px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+aside > h3 {
+    background-color: green;
+    color: white;
+    padding: 0 5px;
+    margin: 0 -10px;
+    border-radius: 8px 8px 0 0;
+}
+
+aside > ul {
+    display: grid;
+    gap: 5px 20px;
+    grid-template-columns: repeat(2, auto);
+    padding: 5px;
+    list-style: none;
+}
+
+aside > ul li::before{
+    content: "✓";
+    padding: 0px 10px;
+}
+
+footer {
+    background-color: rgb(5, 54, 27);
+    color: rgb(48, 128, 108);
+    margin: 5px -8px -10px -8px;
+    text-align: center;
+}
+
+footer > span {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link::after {
+    content: " 🔗";
+}
