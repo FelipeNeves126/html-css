@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #F9FAFB;
+}
+
+h2 {
+    color: #38BDF8;
+}
+
+a {
+   color: #0F172A;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+a:hover {
+    color: #2a3e6d;
+}
+p i {
+    margin: 10px;
+}
+body {
+    background-color :#0F172A;
+    color: #E5E7EB;
+}
+header {
+    background-color: #1E3A8A;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: #1E293B;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #3B82F6;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.card-clicavel {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.card-clicavel:active {
+    transform: scale(0.95);
+}
+
+#painel-detalhes {
+    color: #0F172A;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #6366f1;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    font-weight: bolder;
+
+}
+
+
+
+.escondido {
+    display: none;
+}
+
+.visivel {
+    display: block;
+    animation: fadeIn 0.4s ease;
+}
+
+#painel-detalhes button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #64748b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}

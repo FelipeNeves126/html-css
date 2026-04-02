@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Neves</title>
+    <link rel="stylesheet" href="imagens/style.css">
+    <script src="script/javascript.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Felipe Neves</h1>
+        <p>Estudante de <span>Engenharia de software</span></p>
+        <p>Data de nascimento: 03/05/2000</p>
+        <p>Maringá-PR</p>
+    </header>
+
+    <main>
+        <section class="card-clicavel" onclick="mostrarDetalhes('cursos')">
+            <h2>Cursos </h2>
+        </section>
+        <section class="card-clicavel" onclick="mostrarDetalhes('projetos')">
+            <h2>Projetos próprios</h2>
+        </section>
+        <section class="card-clicavel" onclick="mostrarDetalhes('personalidade')">
+            <h2>Características de personalidade</h2>
+        </section>
+        <section class="card-clicavel" onclick="mostrarDetalhes('competencias')">
+            <h2>Competências</h2>
+        </section>
+    </main>
+
+    <div id="painel-detalhes" class="escondido">
+        <div id="conteudo-detalhes"></div>
+        <button onclick="fecharDetalhes()">Fechar</button>
+    </div>
+</body>
+</html>
