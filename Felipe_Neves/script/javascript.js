@@ -6,9 +6,10 @@ const informacoes = {
     `,
     projetos: `
         <h2>Projetos</h2>
-        <p><a href="https://felipeneves126.github.io/html-css/exercicios/projeto-social-media" target="_blank">Redes sociais <i class="fa-solid fa-arrow-up-right-from-square lupa-link"></i></a></p>
+        <!-- <p><a href="https://felipeneves126.github.io/html-css/exercicios/projeto-social-media" target="_blank">Redes sociais <i class="fa-solid fa-arrow-up-right-from-square lupa-link"></i></a></p>-->
         <p><a href="https://felipeneves126.github.io/html-css/exercicios/Projeto_HistoriaAndroid/index.html" target="_blank">História do Android<i class="fa-solid fa-arrow-up-right-from-square lupa-link"></i></a></p>
         <p><a href="https://felipeneves126.github.io/html-css/exercicios/desafio12/index.html" target="_blank">Cordel Moderno<i class="fa-solid fa-arrow-up-right-from-square lupa-link"></i></a></p>
+        <p><a href="https://felipeneves126.github.io/Front_End2026/Ex02formulario/index.html" target=_blank"> Explicativo de metodologias ágeis <i class="fa-solid fa-arrow-up-right-from-square lupa-link"></i></a></p>
     `,
     
     personalidade: `
