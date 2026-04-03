@@ -29,6 +29,7 @@ const informacoes = {
 
 };
 
+
 function mostrarDetalhes(chave) {
     const painel = document.getElementById('painel-detalhes');
     const conteudo = document.getElementById('conteudo-detalhes');

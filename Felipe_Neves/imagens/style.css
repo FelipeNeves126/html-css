@@ -36,6 +36,7 @@ header {
     text-align: center;
 }
 
+
 main {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -96,6 +97,8 @@ section {
     border-radius: 8px;
     cursor: pointer;
 }
+
+
 
 @keyframes fadeIn {
     from {opacity: 0; transform: translateY(10px);}
